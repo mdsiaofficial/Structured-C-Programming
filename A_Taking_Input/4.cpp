@@ -1,6 +1,8 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 #define pi 3.14159
+#define fs(n) fixed<<setprecision(n)
 int main()
 {
     cout << "Enter the values:" << endl;
@@ -8,9 +10,9 @@ int main()
 
     cin >> b >> h;
 
-    area = (1 / 2) * b * h;
+    area = (b*h)/2;
 
-    cout << "Area: " << area << endl;
-
+    cout << fs(2) <<"Area: " << area << endl;
+    //printf("%f", area);
     return 0;
 }
