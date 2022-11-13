@@ -13,6 +13,6 @@ int main()
     area = (b*h)/2;
 
     cout << fs(2) <<"Area: " << area << endl;
-    //printf("%f", area);
+    
     return 0;
 }
