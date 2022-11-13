@@ -4,11 +4,18 @@ using namespace std;
 int main()
 {
     float r;
+
     cin >> r;
+
     float d, c, a;
-    d =
-    c = 
+
+    d = 2*r;
+    c = 2 * pi * r;
     a = pi * r * r;
 
+    cout << "Diameter: " << d <<endl;
+    cout << "Circumference: " << c <<endl;
+    cout << "Area: " << a <<endl;
+    
     return 0;
 }
