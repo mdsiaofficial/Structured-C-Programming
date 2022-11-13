@@ -10,7 +10,7 @@ int main(){
 
     a3 = 180 - (a1 + a2);
 
-    printf("%d", a3);
+    printf("3rd Angle: %d", a3);
     
     return 0;
 }
