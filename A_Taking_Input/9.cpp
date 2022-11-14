@@ -10,7 +10,6 @@ int main(){
     cout << x >> y;
     p = pow(x, y);
 
-    
     cout << p << endl;
     return 0;
 }
