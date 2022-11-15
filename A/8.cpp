@@ -13,9 +13,9 @@ int main()
     int all;
     cin >> all;
 
-    int years = days / 365;
-    int weeks = (days % 365) / 7;
-    int days = (days % 365) % 7;
+    int years = all / 365;
+    int weeks = (all % 365) / 7;
+    int days = (all % 365) % 7;
 
     cout << "Years: " << years << " Weeks: " << weeks << " Days: " << days << endl;
     return 0;
