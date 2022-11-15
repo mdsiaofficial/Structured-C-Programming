@@ -9,8 +9,8 @@ int main()
     int p;
     
     cout << "Enter the values: " << endl;
-    
-    cout << x >> y;
+
+    cin >> x >> y;
     p = pow(x, y);
 
     cout << p << endl;
