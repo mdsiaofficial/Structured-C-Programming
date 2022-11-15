@@ -1,6 +1,9 @@
 #include <iostream>
 #include <cmath>
-int main(){
+using namespace std;
+
+int main()
+{
 
     int x,y;
     int p;
