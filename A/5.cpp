@@ -7,12 +7,12 @@ using namespace std;
 
 int main()
 {
-    int c;
+    float c;
     cin >> c;
-    int m = c / 100;
-    int km = c / 100000;
+    float m = c / 100;
+    float km = c / 100000;
 
-    cout << "Meter :" << m << endl<<"Kilometer: "<<km<<endl;
-    
+    cout <<fs(4)<< "Meter :" << m << endl<<"Kilometer: "<<km<<endl;
+
     return 0;
 }
