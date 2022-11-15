@@ -7,5 +7,6 @@ int main()
     peri = (len + wi) * 2;
     area = len * wi;
     cout << "Perimeter: " << peri << endl<<"Area: " << area << endl;
+    
     return 0;
 }
