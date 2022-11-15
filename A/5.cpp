@@ -7,14 +7,12 @@ using namespace std;
 
 int main()
 {
-    cout << "Enter the values:" << endl;
-    float b, h, area;
+    int c;
+    cin >> c;
+    int m = c / 100;
+    int km = c / 100000;
 
-    cin >> b >> h;
-
-    area = (b*h)/2;
-
-    cout << fs(2) <<"Area: " << area << endl;
+    cout << "Meter :" << m << endl<<"Kilometer: "<<km<<endl;
     
     return 0;
 }
