@@ -14,9 +14,10 @@ int main()
 
     float a, area;
     cin >> a;
-    area = (sqrt(3) / 4) * pow(a, 2);
-
-    cout << fs(2) <<"Area"<< area << endl;
+    area = (sqrt(3) / 4) * pow(a, 2); // right
+    //area = (sqrt(3)*pow(a,2))/4; // right
+    
+    cout << fs(2) <<"Area "<< area << endl;
 
     return 0;
 }
