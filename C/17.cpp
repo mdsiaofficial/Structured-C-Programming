@@ -12,8 +12,10 @@ int main()
     int unit;
     float a, total, surcharge;
 
-    printf("Enter total units: ");
-    scanf("%d", &unit);
+    //printf("Enter total units: ");
+    cout << "Enter total units: " << endl;
+    cin >> unit;
+    //scanf("%d", &unit);
 
     if(unit <= 50)
     {
@@ -35,8 +37,8 @@ int main()
     surcharge = a * 0.20;
     total  = a + surcharge;
 
-    printf("Electricity Bill = Rs. %.2f", total);
-    
+    //printf("Electricity Bill = Rs. %.2f", total);
+    cout <<fs(2)<< "Electricity Bill = Rs. " << total << endl;
 
     return 0;
 }

@@ -28,7 +28,8 @@ int main()
     surcharge = a * 0.20;
     total  = a + surcharge;
 
-    printf("Electricity Bill = Rs. %.2f", total);
+    printf("Electricity Bill = BDT. %.2f", total);
 
     return 0;
 }
+
