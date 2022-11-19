@@ -30,6 +30,10 @@ int main()
 
     printf("Electricity Bill = BDT. %.2f", total);
 
+
+
+
+//
     return 0;
 }
 

@@ -15,5 +15,8 @@ int main(){
         printf("\n %d Notes is = %d", a[i], temp / a[i]);
         temp = temp % a[i];
     }
+
+
+    //
     return 0;
 }
