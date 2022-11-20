@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <math.h>
 int main(){
     
-    //int a[8] = {500, 100, 50, 20, 10, 5, 2, 1};
+    int a[8] = {500, 100, 50, 20, 10, 5, 2, 1};
 /* 
     int tk500 = 500;
     int tk100 = 100;
