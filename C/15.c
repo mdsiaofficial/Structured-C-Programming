@@ -23,9 +23,11 @@ int main() {
     }else{
         grade = 'E';
     }
+
     printf("\nThe Total marks is:  \t%.2f / 500.00\n", total);
     printf("\nThe Average marks is:\t%.2f\n", average);
     printf("\nThe Percentage is:   \t%.2f%%\n", percentage);
     printf("\nThe Grade is:        \t'%c'\n", grade);
+    
     return 0;
 }
