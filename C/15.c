@@ -28,6 +28,9 @@ int main() {
     printf("\nThe Average marks is:\t%.2f\n", average);
     printf("\nThe Percentage is:   \t%.2f%%\n", percentage);
     printf("\nThe Grade is:        \t'%c'\n", grade);
-    
+    //
+    //
+    //
+    //
     return 0;
 }
