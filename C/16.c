@@ -10,7 +10,8 @@ int main() {
     }else if(a>=30000){
         a=a+(a*0.3)+(a*0.95);
     }
-
+//
+//
     printf("%.2f", a);
     return 0;
 }
