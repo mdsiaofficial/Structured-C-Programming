@@ -36,7 +36,7 @@ int main()
 //
 //
 //
-
+//
 //
     surcharge = a * 0.20;
     total  = a + surcharge;
