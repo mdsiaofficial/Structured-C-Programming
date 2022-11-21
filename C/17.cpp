@@ -33,7 +33,11 @@ int main()
     {
         a = 220 + ((unit-250) * 1.50);
     }
+//
+//
+//
 
+//
     surcharge = a * 0.20;
     total  = a + surcharge;
 
