@@ -40,7 +40,10 @@ int main()
     //printf("Electricity Bill = Rs. %.2f", total);
     cout <<fs(2)<< "Electricity Bill = Rs. " << total << endl;
 
-
+//
+//
+//
+//
 
 
 //
