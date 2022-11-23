@@ -8,25 +8,25 @@ int main()
     
     switch(week)
     {
-        case 1: 
+        case 3: 
             printf("Monday");
             break;
-        case 2: 
+        case 4: 
             printf("Tuesday");
             break;
-        case 3: 
+        case 5: 
             printf("Wednesday");
             break;
-        case 4: 
+        case 6: 
             printf("Thursday");
             break;
-        case 5: 
+        case 7: 
             printf("Friday");
             break;
-        case 6: 
+        case 1: 
             printf("Saturday");
             break;
-        case 7: 
+        case 2: 
             printf("Sunday");
             break;
         default: 
