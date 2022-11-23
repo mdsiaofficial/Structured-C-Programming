@@ -27,17 +27,17 @@ int main()
 
     if((num1 < num2) && (num1 < num3))
     {
-        /* If num1 is greater than both */
+
         min = num1;
     }
     else if((num2 < num1) && (num2 < num3))
     {
-        /* If num2 is greater than both */
+
         min = num2;
     }
     else if((num3 < num1) && (num3 < num2))
     {
-        /* If num3 is greater than both */
+
         min = num3;
     }
     /* Print maximum number */
