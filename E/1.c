@@ -10,5 +10,10 @@ int main()
         printf("%d\n", i);
     }
 
+    while (n--)
+    {
+        cout<<n<<endl;
+    }
+    
     return 0;
 }
