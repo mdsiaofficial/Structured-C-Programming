@@ -10,22 +10,22 @@ int main()
     int num, swappedNum;
     int firstDigit, lastDigit, digits;
 
-    /* Input number from user */
+    /* Input a number from user */
     printf("Enter any number: ");
     scanf("%d", &num);
 
     /* Find last digit */
-    lastDigit  = num % 10;
+    lastDigit  = num % 10; 
 
-    /* Find total number of digit - 1 */
-    digits     = (int)log10(num); 
+    /* Total number of digit - 1 */
+    digits     = (int) log10(num); 
 
     /* Find first digit */
-    firstDigit = (int)(num / pow(10, digits)); 
+    firstDigit = (int) (num / pow(10, digits));
 
     swappedNum  = lastDigit;
-    swappedNum *= (int) pow(10, digits);
-    swappedNum += num % ((int) pow(10, digits));
+    swappedNum *= (int) round(pow(10, digits));
+    swappedNum += num % ((int)round(pow(10, digits)));
     swappedNum -= lastDigit;
     swappedNum += firstDigit;
 
