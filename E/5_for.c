@@ -15,7 +15,7 @@ int main()
                 c++;
             }
         }    
-       if(c==2)
+        if(c==2)
         {
             printf("%d ",i);
         }

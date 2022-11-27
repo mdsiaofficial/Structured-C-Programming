@@ -5,7 +5,9 @@ int main()
   printf("\n Please Enter the Minimum & Maximum Values\n");
   scanf("%d %d", &Minimum, &Maximum);
   Number = Minimum; 
+  Number = Minimum; 
   printf("Prime Numbers Between %d and %d are:\n", Minimum, Maximum);    
+  
   while(Number <= Maximum)
   {
     count = 0;

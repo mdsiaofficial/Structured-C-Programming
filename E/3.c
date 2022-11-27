@@ -10,7 +10,7 @@ int main()
     for(int i = 1; i<=n; i++){
 
         if(i%2==0){
-            sum += i;
+            sum =sum + i;
         }
     }
     printf("Sum of even numbers till N: %d", sum);
