@@ -19,6 +19,7 @@ int main()
     /* Copy num to first digit */
     firstDigit = num;
 
+//
     /* Find the first digit by dividing num by 10 until first digit is left */
     while(num >= 10)
     {
