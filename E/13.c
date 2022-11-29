@@ -32,5 +32,8 @@ int main()
 
     printf("Sum of first and last digit = %d", sum);
 
+
+//
+//
     return 0;
 }
