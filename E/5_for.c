@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,n;  
+    int n;  
     printf("Enter the number till which you want prime numbers\n");
     scanf("%d",&n);
     printf("Prime numbers are:-\n");    
-    for(i=2;i<=n;i++)
+    for(int i=2;i<=n;i++)
     {
         int c=0;
-        for(j=1;j<=i;j++)
+        for(int j=1;j<=i;j++)
         {
             if(i%j==0)
             {
@@ -20,4 +20,6 @@ int main()
             printf("%d ",i);
         }
     }
+
+    return 0;
 }
