@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+ 
 long long factorial(int n){
     long long fact=1;
 
@@ -10,7 +10,6 @@ long long factorial(int n){
 
     return fact;
 }
-
 
 int main()
 {
@@ -22,11 +21,13 @@ int main()
 
     
     for(int i=1; i<=n; i++){
+
         sum = sum + ((double)i/(double)factorial(i));
+        
     }
 
 
     printf("Sum of the series: %lf\n", sum);
-    
+
     return 0;
 }
