@@ -15,16 +15,17 @@ int main()
 {
 
     int n;
+    printf("Enter the value: ");
     scanf("%d", &n);
 
     double sum=0.0;
 
     
     for(int i=1; i<=n; i++){
-
-        sum = sum + ((double)i/(double)factorial(i));
+        double bottom = ((double)i/(double)factorial(i));
+        sum = sum + bottom;
         
-    }
+    } 
 
 
     printf("Sum of the series: %lf\n", sum);
