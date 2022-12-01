@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
 
@@ -8,17 +7,10 @@ int main()
     printf("Enter n number: ");
     scanf("%d", &n);
 
-    for(int i=1; i<=n; i++){
+    for(int i=7; i<=n; i+=13){
         
-        for(int j=1; j<=i; j++){
-
-            sum = sum + j;
-        }
-
+       sum=sum+i;
     }
-
-
-    //int sum = (n*(n+1)*(2*n+4))/12;
 
     printf("Sum =  %d", sum);
 
