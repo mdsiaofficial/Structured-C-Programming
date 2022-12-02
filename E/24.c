@@ -10,12 +10,6 @@ int main()
         n[i]=0;
     }
 
-    //c=2
-
-    //int a[10]={0,1,2,3,2,1,0,0,0,0}
-
-
-
     int last;
     while (number!=0)
     {

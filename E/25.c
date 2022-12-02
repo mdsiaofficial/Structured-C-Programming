@@ -16,10 +16,7 @@ int main()
         }
 
     }
-
-
     //int sum = (n*(n+1)*(2*n+4))/12;
-
     printf("Sum =  %d", sum);
 
     
