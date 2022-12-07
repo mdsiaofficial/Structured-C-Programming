@@ -16,11 +16,5 @@ int main()
             printf("%d is an ODD number.\n",number);
             break;
     }
-     //
-     //
-     //
-     //
-     //
-     //
     return 0;
 }
