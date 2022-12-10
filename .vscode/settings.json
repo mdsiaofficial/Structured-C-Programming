@@ -4,6 +4,7 @@
         "iostream": "cpp",
         "stdio.h": "c",
         "math.h": "c",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "FF.C": "cpp"
     }
 }
