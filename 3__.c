@@ -12,7 +12,7 @@ int main(){
     f=a;
 
     for(int i=0; i<9; i++){
-        
+
         int y = f/tk[i];
         printf("%d tk note is = %d\n", tk[i], y);
         f = f%tk[i];
@@ -21,3 +21,15 @@ int main(){
 
     return 0;
 }
+
+
+
+
+
+
+
+50 = 50 * 0.50
+51 - 150 = 100 * 0.75
+151 - 250 = 100 * 1.20
+250 = 250 * 1.50
+
