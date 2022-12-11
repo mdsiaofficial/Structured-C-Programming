@@ -1,9 +1,5 @@
-/**
- * C program to find all roots of a quadratic equation using switch case
- */
-
 #include <stdio.h>
-#include <math.h> /* Used for sqrt() */
+#include <math.h>
 
 int main()
 {
@@ -39,24 +35,16 @@ int main()
                     root1 = root2 = -b / (2 * a);
                     imaginary = sqrt(-discriminant) / (2 * a);
 
-                    printf("Two distinct complex roots exists: %.2f + i%.2f and %.2f - i%.2f", 
-                            root1, imaginary, root2, imaginary);
+                    printf("Two distinct complex roots exists: %.2f + i%.2f and %.2f - i%.2f", root1, imaginary, root2, imaginary);
                     break;
 
                 case 0:
                     /* If discriminant is zero */
                     root1 = root2 = -b / (2 * a);
-
                     printf("Two equal and real roots exists: %.2f and %.2f", root1, root2);
-
                     break;
             }
     }
-//
-//
-//
-//
-//
 
     return 0;
 }
