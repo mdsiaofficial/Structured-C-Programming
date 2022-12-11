@@ -2,23 +2,25 @@
 #include <string.h>
 int main() 
 {
- 
-    //char *(a[7])={"monday","tuesday","wednesday","thursday","friday","saturday","sunday"},m; 
-    string a[7]={"saturday","sunday","monday","tuesday","wednesday","thursday","friday"}; 
-    printf("Enter the week day:");
     int x;
-    scanf("%d",&x);
-/*  scanf("%d",&m);
-    if(m>7 || m<1){
-    	printf("invalid input");
-    }else}
-        printf("%s",a[m-1]);
-    }
- */
-    if(x>7 || x<1){
-    	printf("invalid input");
-    }else}
-        printf("%s", a[x-1]);
+    scanf("%d", &x);
+
+    if(x==1){
+        printf("Saturday");
+    }else if(x==2){
+        printf("Sunday");
+    }else if(x==3){
+        printf("Monday");
+    }else if(x==4){
+        printf("Tuesday");
+    }else if(x==5){
+        printf("Wednesday");
+    }else if(x==6){
+        printf("Thursday");
+    }else if(x==7){
+        printf("Friday");
+    }else{
+        printf("Error Input");
     }
 
    return 0;
