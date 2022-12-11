@@ -15,10 +15,6 @@ int main()
         n /= 10;
     }
 
-    /* 
-     * Extract last digit of number and print corresponding digit in words
-     * till num becomes 0
-     */
     while(num != 0)
     {
         switch(num % 10)
