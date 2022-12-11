@@ -1,7 +1,3 @@
-/**
- * C program to create simple calculator using switch case and functions
- */
-
 #include <stdio.h>
 
 
@@ -20,7 +16,6 @@ int main()
     char op;
     float num1, num2, result=0.0f;
 
-    /* Print welcome message */
     printf("WELCOME TO SIMPLE CALCULATOR\n");
     printf("----------------------------\n");
     printf("Enter [number 1] [+ - * /] [number 2]\n");
