@@ -17,7 +17,7 @@ int main()
       if(Number%i == 0)
       {
         count++;
-	break;
+	      break;
       }
       i++;	
     }	
