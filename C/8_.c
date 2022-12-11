@@ -20,7 +20,7 @@ int main()
     }else if(x==7){
         printf("Friday");
     }else{
-        printf("Error");
+        printf("Error Input");
     }
 
    return 0;
