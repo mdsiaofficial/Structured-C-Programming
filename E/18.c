@@ -1,7 +1,3 @@
-/**
- * C program to print ASCII values of all characters.
- */
-
 #include <stdio.h>
 
 int main()
