@@ -8,7 +8,6 @@ int main()
     printf("Enter any number to print in words: ");
     scanf("%d", &n);
 
-    /* Store reverse of n in num */
     while(n != 0)
     {
         num = (num * 10) + (n % 10);
