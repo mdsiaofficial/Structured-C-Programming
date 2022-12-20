@@ -1,5 +1,9 @@
-# Structured-C-Programming
+# [Structured-C-Programming](https://www.youtube.com/watch?v=K-1QfOaiqbs&list=PLlzIFNhAfaJEvf0uqcr2PmsuwVnE1mBbo)
 university 2nd semester cse 114
 
 #You can learn from video tutorial also. 
-here is my Youtube channel link: https://www.youtube.com/@mdsiaofficial/ [YOUTUBE](https://www.youtube.com/@mdsiaofficial)
+here is my Youtube channel link: 
+
+# [Structured-C-Programming](https://www.youtube.com/watch?v=K-1QfOaiqbs&list=PLlzIFNhAfaJEvf0uqcr2PmsuwVnE1mBbo)
+https://www.youtube.com/@mdsiaofficial/ 
+[YOUTUBE](https://www.youtube.com/@mdsiaofficial)
