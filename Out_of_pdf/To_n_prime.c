@@ -8,7 +8,7 @@ int main()
     for(i=2;i<=n;i++)
     {
         int c=0;
-        for(j=1;j<=i;j++)
+        for(j=1;j<=i/2;j++)
         {
             if(i%j==0)
             {

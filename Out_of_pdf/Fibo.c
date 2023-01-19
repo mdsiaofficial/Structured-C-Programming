@@ -11,11 +11,12 @@ int fibbonacci(int n) {
 }
 
 int main() {
-   int n = 5;
+   int n = 100;
    int i;
    printf("Fibbonacci of %d: " , n);
 	
    for(i = 0;i<n;i++) {
       printf("%d ",fibbonacci(i));            
    }
+   return 0;
 }
