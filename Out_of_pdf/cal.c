@@ -56,18 +56,18 @@ int main()
         for(int i=0; i<12; i++)
         {
             //Month
-            printf("\n---------%s----------",month[i]);
+            printf("\n-------------------%s--------------------------",month[i]);
             printf("\n");
             //Weekdays
 
-            printf("\n Sun  Mon  Tue  Wed  Thu  Fri  Sat \n");
+            printf("\nSun\tMon\tTue\tWed\tThu\tFri\tSat\n");
 
             //spaceCounter
 
             int spaceCounter=0;
             for(spaceCounter=1; spaceCounter<=weekDay; spaceCounter++)
             {
-                printf(" ");
+                printf("\t");
             }
             
             //Days
