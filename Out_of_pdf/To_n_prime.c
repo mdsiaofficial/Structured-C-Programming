@@ -1,24 +1,26 @@
 #include<stdio.h>
-int main()
-{
-    int i,j,n;  
-    printf("Enter the number till which you want prime numbers\n");
-    scanf("%d",&n);
-    printf("Prime numbers are:-\n");    
-    for(i=2;i<=n;i++)
-    {
-        int c=0;
-        for(j=1;j<=i/2;j++)
-        {
-            if(i%j==0)
-            {
-                c++;
+int main(){
+
+    int i, num, n, count;
+
+    printf("Enter the range: ");
+    scanf("%d", &n);
+    printf("The prime numbers in between the range 1 to %d:",n);
+
+    for(num = 1;num<=n;num++){
+        count = 0;
+        for(i=2;i<=num/2;i++){
+
+            if(num%i==0){
+                count++;
+                break;
             }
-        }    
-        if(c==2)
-        {
-            printf("%d ",i);
         }
+
     }
+    if(count==0 && num!= 1){
+        printf("%d ",num);
+    }
+
     return 0;
 }

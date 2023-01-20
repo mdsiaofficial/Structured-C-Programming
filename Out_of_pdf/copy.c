@@ -1,3 +1,29 @@
+/*
+This code is a calendar that shows the months of a given year.
+The code starts by including the standard input output library and the bool library.
+It then defines the getFirstDayOfTheYear function which calculates the first day of the year.
+It then defines the main function.
+The main function starts by creating the month array and setting it to the months of the year.
+The main function then creates the daysInMonth array and sets it to the number of days in each month.
+The main function then defines the weekDay variable and sets it to 0.
+The main function then defines the year variable and reads the year from the user.
+The main function then defines the isLeapYear variable and checks if the year is divisible by 400 and sets isLeapYear to true if the year is divisible by 400.
+The main function then checks if the year is divisible by 4 and not divisible by 100 and sets isLeapYear to true if the year is divisible by 4 and not divisible by 100.
+The main function then checks if the year is not divisible by 400, 4, or 100 and sets isLeapYear to false if the year is not divisible by 400, 4, or 100.
+The main function then checks if isLeapYear is true and sets the number of days in February to 29 if isLeapYear is true.
+The main function then defines the onOrof variable and reads the onOrof from the user.
+The main function then checks if the user wants to start the calendar and sets the weekDay variable to the first day of the year if the user wants to start the calendar.
+The main function then loops through each month and prints the month on the console.
+The main function then prints the weekdays on the console.
+The main function then initializes the spaceCounter variable and loops through weekDay and prints a space on the console.
+The main function then sets the totalDays variable to the number of days in the month and loops through the days of the month.
+The main function then prints the day on the console and increments the weekDay variable.
+The main function then checks if the weekDay variable is equal to 7 and prints a new line on the console and sets the weekDay variable to 0 if the weekDay variable is equal to 7.
+The main function then checks if the user wants to stop the calendar and prints "Calendar stopped" on the console if the user wants to stop the calendar.
+The main function then prints "you press the wrong key. Please press again." on the console and reads the onOrof variable from the user if onOrof is not 1 or 0.
+The main function then returns 0.
+*/
+
 #include<stdio.h>    // Include the standard I/O library
 #include<stdbool.h>    // Include the bool library
 //first day of the year    // first day of the year function
