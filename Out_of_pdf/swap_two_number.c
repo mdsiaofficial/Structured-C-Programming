@@ -13,7 +13,7 @@ int main()
     b=a-b;
     a=a-b;
 
-    printf("\nNow swap: A= %d and B= %d\n",a,b);
+    printf("Now swap: A= %d and B= %d\n",a,b);
     
     return 0;
 }

@@ -3,39 +3,37 @@
 int main(){
 
     // 1. strlen
-    char variable[] = {"My name is jannat"};
+    char variable[] = {"I do programming"};
     printf("%d\n\n", strlen(variable));
 
     // 2. strcpy
     char cpytext[100];
-    char vaar[] = {"Ami saradin pori"};
+    char vaar[] = {"Programming is awesome"};
     strcpy(cpytext, vaar);
     printf("%s\n\n", cpytext);
     
-
     // 3. strcat
-    char daar[] = {"Ami Jarin, "};
-    char taar[] = {"Ami saradin pori"};
+    char daar[] = {"I am cse student, "};
+    char taar[] = {"I do programming"};
     strcat(daar, taar);
     printf("%s\n\n", daar);
     
     // 4. strcmp
-    char bar[] = {"Ami Jarin"};
-    char jar[] = {"Ami Jarin"};
+    char bar[] = {"Bulbul"};
+    char jar[] = {"Bulbol"};
     printf("%d\n\n", strcmp(bar, jar));
     
     // 5. strrev
-    char wee[] = {"jarin"}; // niraj
+    char wee[] = {"Ashiq"}; // niraj
     printf("%s\n\n", strrev(wee));
     
     // 6. strlwr
-    char text[] = {"Ami ashiq, Amar Porte Valo Lage Na"};
+    char text[] = {"My Name Is Ashiq"};
     printf("%s\n\n", strlwr(text));
     
-    
     // 7. strupr
-    char text2[] = {"Ami Jarin, Amar Porte Valo Lage"};
+    char text2[] = {"My Name Is Ashiq"};
     printf("%s\n\n", strupr(text2));
     
-
+    return 0;
 }
