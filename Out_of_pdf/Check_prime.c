@@ -20,10 +20,11 @@ int main()
             break;
         }
     }
-    if (c == 0)
+    if (c == 0){
         printf("%d is a prime number \n", num);
-     else
+     }else{
         printf("%d is not a prime number \n", num);
+    }
 
     return 0;
 }
