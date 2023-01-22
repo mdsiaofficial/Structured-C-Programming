@@ -20,7 +20,7 @@ int main(){
     
     // 4. strcmp
     char text5[] = {"Bulbul"};
-    char text6[] = {"Bulbol"};
+    char text6[] = {"Bulbul"};
     printf("%d\n", strcmp(text5, text6));
     
     // 5. strrev
