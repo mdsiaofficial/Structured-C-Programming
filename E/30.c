@@ -1,6 +1,3 @@
-/**
- * C program to check Armstrong number
- */
 #include <stdio.h>
 #include <math.h>
 
