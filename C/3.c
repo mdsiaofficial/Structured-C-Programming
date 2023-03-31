@@ -25,7 +25,5 @@ int main(){
         temp = temp % a[i];
     }
 
-
-    //
     return 0;
 }

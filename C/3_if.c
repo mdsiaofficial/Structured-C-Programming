@@ -15,6 +15,7 @@ int main()
     {
         note500 = amount/500;
         amount -= note500 * 500;
+        // amount = amount - note500 * 500;
     }
     if(amount >= 100)
     {
