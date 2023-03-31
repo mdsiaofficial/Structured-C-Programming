@@ -4,9 +4,7 @@ int main(){
 
     char x;
     scanf("%c", &x);
-
     if(x>='0' && x<='9'){
-
         printf("%c is a Digit/Number", x);
 
     }else if((x>='a' && x<='z') || (x>='A' && x<='Z')){
