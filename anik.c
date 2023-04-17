@@ -1,27 +1,4 @@
 #include<stdio.h>
-void print_hello();
-void print_int( int a);
-void print_float(float b);
-void print_double(double c);
-void print_char(char d);
-int input_int();
-float input_float();
-double input_double();
-char input_char();
-
-int main(){
-    print_hello();
-    print_int(5);
-    print_float(5.5);
-    print_double(5.578996854);
-    print_char('c');
-    input_int();
-    input_float();
-    input_double();
-    //printf("%c",input_char());
-    input_char();
-    return 0;
-}
 
 void print_hello(){
     printf("Hello World .\n");
@@ -43,7 +20,6 @@ int input_int(){
     scanf("%d",&x);
     printf("%d\n",x);
     return x;
-
 }
 float input_float(){
     float y;
@@ -57,9 +33,23 @@ double input_double(){
     printf("%lf\n",z);
     return z;
 }
-char input_char(){
+char input_charrr(){
     char gh;
-    scanf("%c",&gh);
-    printf("%d\n", gh);
+    scanf(" %c",&gh); // add a space before %c
+    printf("%c\n", gh);
     return gh;
+}
+
+int main(){
+    print_hello();
+    print_int(5);
+    print_float(5.5);
+    print_double(5.578996854);
+    print_char('c');
+    input_int();
+    input_float();
+    input_double();
+    input_charrr();
+
+    return 0;
 }
