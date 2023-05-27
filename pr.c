@@ -22,11 +22,13 @@ int main()
         printf("%d\n", arr[i]);
     } */
     //updateArray(arr);
-
+/* 
     int sum=0;
     for(int i=0; i<10; i++){
         sum = sum + yrrr[i];
     }
     int avrg = sum/10;
     printf(" %d %d", sum, avrg);
+
+     */
 }
