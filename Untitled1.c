@@ -31,7 +31,7 @@ int main()
     printf("%d\n",bank2(&Ca));
     printf("%d\n", Ca);
 
-    float
+
 
     return 0;
 }
